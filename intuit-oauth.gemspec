@@ -4,7 +4,7 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.add_dependency 'httparty', '~> 0.16.3'
+  spec.add_dependency 'httparty', '= 0.16.3'
   spec.add_dependency 'json', '~> 1.8'
   spec.add_dependency 'rsa-pem-from-mod-exp', '~> 0.1.0'
 
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 1.9.0'
   spec.required_rubygems_version = '>= 1.3.5'
   spec.summary       = 'A Ruby wrapper for the OAuth 2.0 protocol.'
-  spec.version       = '1.0.1'
+  spec.version       = '1.0.2'
 
   spec.require_paths = %w[lib]
   spec.bindir        = 'exe'
